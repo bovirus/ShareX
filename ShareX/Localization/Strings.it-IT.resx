@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -83,7 +142,7 @@
     <value>Informativa sulla privacy</value>
   </data>
   <data name="AboutWindow_ProjectPage" xml:space="preserve">
-    <value>Pagina del progetto</value>
+    <value>Pagina progetto</value>
   </data>
   <data name="AboutWindow_SteamBuild" xml:space="preserve">
     <value>Versione Steam</value>
@@ -98,13 +157,13 @@
     <value>ShareX è aggiornato.</value>
   </data>
   <data name="AboutWindow_UpdateCheckFailed" xml:space="preserve">
-    <value>Controllo degli aggiornamenti non riuscito.</value>
+    <value>Controllo aggiornamenti non riuscito.</value>
   </data>
   <data name="AboutWindow_Website" xml:space="preserve">
     <value>Sito web</value>
   </data>
   <data name="ActionsForm_btnOK_Click_File_path_can_t_be_empty_" xml:space="preserve">
-    <value>Il percorso file non puù essere vuoto.</value>
+    <value>Il percorso file non può essere vuoto.</value>
   </data>
   <data name="ActionsForm_btnOK_Click_Name_can_t_be_empty_" xml:space="preserve">
     <value>Il nome non può essere vuoto.</value>
@@ -128,7 +187,7 @@
     <value>Separatore</value>
   </data>
   <data name="ActionsToolbarEditorWindow_Title" xml:space="preserve">
-    <value>ShareX - Modifica barra delle azioni</value>
+    <value>ShareX - Modifica barra azioni</value>
   </data>
   <data name="ActionsToolbarWindow_Close" xml:space="preserve">
     <value>Chiudi</value>
@@ -152,7 +211,7 @@
     <value>Trascina per spostare; clic destro per il menu</value>
   </data>
   <data name="ActionsToolbarWindow_Title" xml:space="preserve">
-    <value>ShareX - Barra delle azioni</value>
+    <value>ShareX - Barra azioni</value>
   </data>
   <data name="AfterCaptureWindow_AfterUpload" xml:space="preserve">
     <value>Dopo il caricamento</value>
@@ -191,7 +250,7 @@
     <value>ShareX - Dopo l’acquisizione</value>
   </data>
   <data name="AfterUploadWindow_ClipboardFormats" xml:space="preserve">
-    <value>Formati degli appunti</value>
+    <value>Formati appunti</value>
   </data>
   <data name="AfterUploadWindow_Close" xml:space="preserve">
     <value>Chiudi</value>
@@ -200,7 +259,7 @@
     <value>Copia immagine</value>
   </data>
   <data name="AfterUploadWindow_CopyPreviewImage" xml:space="preserve">
-    <value>Copia immagine di anteprima</value>
+    <value>Copia immagine anteprima</value>
   </data>
   <data name="AfterUploadWindow_CopySelectedFormat" xml:space="preserve">
     <value>Copia formato selezionato</value>
@@ -239,19 +298,19 @@
     <value>Vuoi reimpostare le impostazioni di ShareX?</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
-    <value>Avviaup has been disabled by your organization</value>
+    <value>L'avvio automatico è stato disabilitato dalla tua organizzazione</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByUser_Text" xml:space="preserve">
     <value>L'avvio automatico è stato disattivato in Gestione Attività</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_EnabledByPolicy_Text" xml:space="preserve">
-    <value>Avviaup has been enabled by your organization</value>
+    <value>L'avvio automatico è stato abilitato dalla tua organizzazione</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_Text" xml:space="preserve">
     <value>Esegui ShareX all'Avvio di Windows</value>
   </data>
   <data name="ApplicationSettingsForm_cbSteamShowInApp_CheckedChanged_For_settings_to_take_effect_ShareX_needs_to_be_reopened_from_Steam_" xml:space="preserve">
-    <value>Riavviare ShareX da Steam per applicare i cambiamenti.</value>
+    <value>Per applicare le modifiche riavvia ShareX da Steam.</value>
   </data>
   <data name="ApplicationSettingsWindow_AccentColor" xml:space="preserve">
     <value>Colore principale</value>
@@ -275,10 +334,10 @@
     <value>Appunti</value>
   </data>
   <data name="ApplicationSettingsWindow_AdvancedDragAndDropWindow" xml:space="preserve">
-    <value>Finestra di trascinamento</value>
+    <value>Finestra trascinamento</value>
   </data>
   <data name="ApplicationSettingsWindow_AdvancedHotkeys" xml:space="preserve">
-    <value>Scorciatoie da tastiera</value>
+    <value>Scorciatoie tastiera</value>
   </data>
   <data name="ApplicationSettingsWindow_AdvancedImage" xml:space="preserve">
     <value>Immagine</value>
@@ -299,7 +358,7 @@
     <value>Pulizia automatica</value>
   </data>
   <data name="ApplicationSettingsWindow_AutomaticallyCheckForUpdates" xml:space="preserve">
-    <value>Controlla automaticamente gli aggiornamenti</value>
+    <value>Controlla automaticamente aggiornamenti</value>
   </data>
   <data name="ApplicationSettingsWindow_AutomaticallyCleanupOldBackupFiles" xml:space="preserve">
     <value>Pulisci automaticamente i vecchi file di backup</value>
@@ -335,7 +394,7 @@
     <value>Sfoglia...</value>
   </data>
   <data name="ApplicationSettingsWindow_BrowserPath" xml:space="preserve">
-    <value>Percorso del browser</value>
+    <value>Percorso browser</value>
   </data>
   <data name="ApplicationSettingsWindow_BufferSizeLabel" xml:space="preserve">
     <value>Dimensione buffer:</value>
@@ -359,13 +418,13 @@
     <value>Formati appunti</value>
   </data>
   <data name="ApplicationSettingsWindow_CustomHotkeysConfigPath" xml:space="preserve">
-    <value>Percorso personalizzato della configurazione delle scorciatoie</value>
+    <value>Percorso personalizzato configurazione scorciatoie tastiera</value>
   </data>
   <data name="ApplicationSettingsWindow_CustomScreenshotsPath2" xml:space="preserve">
-    <value>Percorso secondario degli screenshot</value>
+    <value>Percorso secondario schermate</value>
   </data>
   <data name="ApplicationSettingsWindow_CustomUploadersConfigPath" xml:space="preserve">
-    <value>Percorso personalizzato della configurazione degli uploader</value>
+    <value>Percorso personalizzato configurazione uploader</value>
   </data>
   <data name="ApplicationSettingsWindow_CustomizeTheTextCopiedFromCompletedUploads" xml:space="preserve">
     <value>Personalizza il testo copiato dai caricamenti completati.</value>
@@ -374,7 +433,7 @@
     <value>Scuro</value>
   </data>
   <data name="ApplicationSettingsWindow_DefaultClipboardCopyImageFillBackground" xml:space="preserve">
-    <value>Riempi lo sfondo dell’immagine durante la copia</value>
+    <value>Durante la copia riempi lo sfondo dell’immagine</value>
   </data>
   <data name="ApplicationSettingsWindow_DefaultPrinterOverrideLabel" xml:space="preserve">
     <value>Sostituzione stampante predefinita:</value>
@@ -386,31 +445,31 @@
     <value>Modalità sviluppatore</value>
   </data>
   <data name="ApplicationSettingsWindow_DisableHotkeys" xml:space="preserve">
-    <value>Disattiva le scorciatoie da tastiera</value>
+    <value>Disattiva scorciatoie tastiera</value>
   </data>
   <data name="ApplicationSettingsWindow_DisableHotkeysOnFullscreen" xml:space="preserve">
-    <value>Disattiva le scorciatoie nelle applicazioni a schermo intero</value>
+    <value>Nelle applicazioni a schermo intero disattiva scorciatoie tastiera </value>
   </data>
   <data name="ApplicationSettingsWindow_DisableUpload" xml:space="preserve">
-    <value>Disattiva i caricamenti</value>
+    <value>Disattiva caricamenti</value>
   </data>
   <data name="ApplicationSettingsWindow_DoNotShareAnExportedBackupItCanContainPrivateInformationSuchAsAccountDetailsAndUploadHistory" xml:space="preserve">
     <value>Non condividere un backup esportato. Può contenere informazioni private come dettagli degli account e cronologia dei caricamenti.</value>
   </data>
   <data name="ApplicationSettingsWindow_DontShowImagePrintSettingsDialog" xml:space="preserve">
-    <value>Non mostrare finestra impostazioni stampa immagine</value>
+    <value>Non visualizzare finestra impostazioni stampa immagine</value>
   </data>
   <data name="ApplicationSettingsWindow_DontShowWindowsPrintDialog" xml:space="preserve">
-    <value>Non mostrare finestra di stampa Windows</value>
+    <value>Non visualizzare finestra di stampa Windows</value>
   </data>
   <data name="ApplicationSettingsWindow_DropAlignment" xml:space="preserve">
-    <value>Posizione della finestra di trascinamento</value>
+    <value>Posizione finestra trascinamento</value>
   </data>
   <data name="ApplicationSettingsWindow_DropHoverOpacity" xml:space="preserve">
-    <value>Opacità al passaggio sulla finestra di trascinamento</value>
+    <value>Opacità al passaggio sulla finestra trascinamento</value>
   </data>
   <data name="ApplicationSettingsWindow_DropOffset" xml:space="preserve">
-    <value>Offset della finestra di trascinamento</value>
+    <value>Offset finestra trascinamento</value>
   </data>
   <data name="ApplicationSettingsWindow_DropOpacity" xml:space="preserve">
     <value>Opacità della finestra di trascinamento</value>
@@ -485,10 +544,10 @@
     <value>Importazione backup...</value>
   </data>
   <data name="ApplicationSettingsWindow_InTrayMenuShowMostRecentTasksFirst" xml:space="preserve">
-    <value>Mostra prima le attività più recenti nel menu dell'area di notifica</value>
+    <value>Nel menu dell'area di notifica visualizza prima le attività più recenti</value>
   </data>
   <data name="ApplicationSettingsWindow_InstallDevBuild" xml:space="preserve">
-    <value>Installa build di sviluppo...</value>
+    <value>Installa build sviluppatore...</value>
   </data>
   <data name="ApplicationSettingsWindow_InstallShareXChromeExtension" xml:space="preserve">
     <value>Installa estensione ShareX per Chrome...</value>
@@ -512,7 +571,7 @@
     <value>Numero massimo di attività da salvare:</value>
   </data>
   <data name="ApplicationSettingsWindow_MiddleCenter" xml:space="preserve">
-    <value>Centro</value>
+    <value>Al centro</value>
   </data>
   <data name="ApplicationSettingsWindow_MiddleLeft" xml:space="preserve">
     <value>Al centro a sinistra</value>
@@ -524,10 +583,10 @@
     <value>Riduci a icona nell'area di notifica all'avvio</value>
   </data>
   <data name="ApplicationSettingsWindow_NumberOfFilesToKeepLabel" xml:space="preserve">
-    <value>Numero di file da conservare:</value>
+    <value>Numero file da conservare:</value>
   </data>
   <data name="ApplicationSettingsWindow_NumberOfTimesToRetryIfUploadFailsLabel" xml:space="preserve">
-    <value>Numero di tentativi se il caricamento non riesce:</value>
+    <value>Numero tentativi se il caricamento non riesce:</value>
   </data>
   <data name="ApplicationSettingsWindow_OnTrayIconDoubleLeftClickLabel" xml:space="preserve">
     <value>Al doppio clic sinistro sull'icona:</value>
@@ -545,7 +604,7 @@
     <value>Apri...</value>
   </data>
   <data name="ApplicationSettingsWindow_PNGStripColorSpaceInformation" xml:space="preserve">
-    <value>Rimuovi le informazioni sullo spazio colore PNG</value>
+    <value>Rimuovi informazioni spazio colore PNG</value>
   </data>
   <data name="ApplicationSettingsWindow_PasswordLabel" xml:space="preserve">
     <value>Password:</value>
@@ -578,19 +637,19 @@
     <value>Rimuovi</value>
   </data>
   <data name="ApplicationSettingsWindow_Reset" xml:space="preserve">
-    <value>Reimposta</value>
+    <value>Ripristina</value>
   </data>
   <data name="ApplicationSettingsWindow_ResetSettings" xml:space="preserve">
-    <value>Reimposta impostazioni...</value>
+    <value>Ripristina impostazioni...</value>
   </data>
   <data name="ApplicationSettingsWindow_RestartNow" xml:space="preserve">
-    <value>Riavvia ora</value>
+    <value>Riavvia</value>
   </data>
   <data name="ApplicationSettingsWindow_RestartShareXToApplyThisChange" xml:space="preserve">
-    <value>Riavvia ShareX per applicare questa modifica.</value>
+    <value>Per applicare questa modifica riavvia ShareX.</value>
   </data>
   <data name="ApplicationSettingsWindow_RightClickToInsertAVariable" xml:space="preserve">
-    <value>Fai clic destro per inserire una variabile.</value>
+    <value>Per inserire una variabile fai clic destro.</value>
   </data>
   <data name="ApplicationSettingsWindow_RotateImageByExifOrientationData" xml:space="preserve">
     <value>Ruota le immagini in base all’orientamento EXIF</value>
@@ -602,7 +661,7 @@
     <value>Salva attività recenti</value>
   </data>
   <data name="ApplicationSettingsWindow_SaveSettingsAfterTaskCompleted" xml:space="preserve">
-    <value>Salva le impostazioni al termine di un’attività</value>
+    <value>Ad attività completata salva le impostazioni</value>
   </data>
   <data name="ApplicationSettingsWindow_SaveTasksToHistory" xml:space="preserve">
     <value>Salva attività nella cronologia</value>
@@ -614,7 +673,7 @@
     <value>Impostazioni</value>
   </data>
   <data name="ApplicationSettingsWindow_SettingsReset" xml:space="preserve">
-    <value>Impostazioni reimpostate.</value>
+    <value>Impostazioni ripristinate.</value>
   </data>
   <data name="ApplicationSettingsWindow_ShareXBackup" xml:space="preserve">
     <value>Backup ShareX</value>
@@ -623,43 +682,43 @@
     <value>Cartella personale ShareX</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowClipboardContentViewer" xml:space="preserve">
-    <value>Mostra il visualizzatore del contenuto degli appunti</value>
+    <value>Visualizza visualizzatore contenuto appunti</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowEditWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
-    <value>Mostra pulsante "Modifica con ShareX" nel menu contestuale di Esplora file</value>
+    <value>Nel menu contestuale di Esplora file visualizza "Modifica con ShareX"</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowLargeFileSizeWarning" xml:space="preserve">
-    <value>Soglia di avviso per file di grandi dimensioni (MB)</value>
+    <value>Soglia avviso per file di grandi dimensioni (MB)</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowMostRecentTaskFirst" xml:space="preserve">
-    <value>Mostra prima l’attività più recente</value>
+    <value>Visualizza prima l’attività più recente</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowMultiUploadWarning" xml:space="preserve">
     <value>Avvisa prima di caricare più di 10 file</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowProgressInTaskbarButton" xml:space="preserve">
-    <value>Mostra avanzamento nel pulsante della barra delle applicazioni</value>
+    <value>Visualizza avanzamento nel pulsante della barra delle applicazioni</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowProgressInTrayIcon" xml:space="preserve">
-    <value>Mostra avanzamento nell'icona dell'area di notifica</value>
+    <value>Visualizza avanzamento nell'icona dell'area di notifica</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowRecentTasksInMainWindowOnStartup" xml:space="preserve">
-    <value>Mostra attività recenti nella finestra principale all'avvio</value>
+    <value>Visualizza attività recenti nella finestra principale all'avvio</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowRecentTasksInTrayMenu" xml:space="preserve">
-    <value>Mostra attività recenti nel menu dell'area di notifica</value>
+    <value>Visualizza attività recenti nel menu dell'area di notifica</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowShareXInSendToMenu" xml:space="preserve">
-    <value>Mostra ShareX nel menu "Invia a"</value>
+    <value>Nel menu "Invia a" visualizza ShareX</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowTitle" xml:space="preserve">
-    <value>Mostra titolo</value>
+    <value>Visualizza titolo</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowTrayIcon" xml:space="preserve">
-    <value>Mostra icona nell'area di notifica</value>
+    <value>Visualizza icona nell'area di notifica</value>
   </data>
   <data name="ApplicationSettingsWindow_ShowUploadWithShareXButtonInWindowsExplorerContextMenu" xml:space="preserve">
-    <value>Mostra pulsante "Carica con ShareX" nel menu contestuale di Esplora file</value>
+    <value>Visualizza pulsante "Carica con ShareX" nel menu contestuale di Esplora file</value>
   </data>
   <data name="ApplicationSettingsWindow_SimultaneousUploadLimitLabel" xml:space="preserve">
     <value>Limite caricamenti simultanei:</value>
@@ -680,7 +739,7 @@
     <value>Tema:</value>
   </data>
   <data name="ApplicationSettingsWindow_TheseFormatsAppearUnderTheCopySubmenuInTheMainWindowContextMenu" xml:space="preserve">
-    <value>Questi formati compaiono nel sottomenu Copia del menu contestuale della finestra principale.</value>
+    <value>Questi formati compaiono nel sottomenu 'Copia' del menu contestuale della finestra principale.</value>
   </data>
   <data name="ApplicationSettingsWindow_ThumbnailClickActionLabel" xml:space="preserve">
     <value>Azione clic miniatura:</value>
@@ -707,13 +766,13 @@
     <value>Azioni area di notifica</value>
   </data>
   <data name="ApplicationSettingsWindow_TrayAutoExpandCaptureMenu" xml:space="preserve">
-    <value>Espandi automaticamente il menu di acquisizione</value>
+    <value>Espandi automaticamente il menu acquisizione</value>
   </data>
   <data name="ApplicationSettingsWindow_URLEncodeIgnoreEmoji" xml:space="preserve">
-    <value>Ignora le emoji durante la codifica URL</value>
+    <value>Durante la codifica URL ignora le emoji</value>
   </data>
   <data name="ApplicationSettingsWindow_UpdateChannelLabel" xml:space="preserve">
-    <value>Canale di aggiornamento:</value>
+    <value>Canale aggiornamento:</value>
   </data>
   <data name="ApplicationSettingsWindow_Updates" xml:space="preserve">
     <value>Aggiornamenti</value>
@@ -725,10 +784,10 @@
     <value>Risultato caricamento</value>
   </data>
   <data name="ApplicationSettingsWindow_UseAlternativeClipboardCopyImage" xml:space="preserve">
-    <value>Usa la copia alternativa delle immagini</value>
+    <value>Usa copia immagine alternativa</value>
   </data>
   <data name="ApplicationSettingsWindow_UseAlternativeClipboardGetImage" xml:space="preserve">
-    <value>Usa il recupero alternativo delle immagini</value>
+    <value>Usa recupero immagine alternativa</value>
   </data>
   <data name="ApplicationSettingsWindow_UseCustomScreenshotsFolder" xml:space="preserve">
     <value>Usa cartella schermate personalizzata</value>
@@ -743,7 +802,7 @@
     <value>Nome utente:</value>
   </data>
   <data name="ApplicationSettingsWindow_WhileShareXIsOpenShowInAppInSteam" xml:space="preserve">
-    <value>Quando ShareX è aperto, mostra "In gioco" in Steam</value>
+    <value>Quando ShareX è aperto, in Steam visualizza "In App"</value>
   </data>
   <data name="ApplicationSettingsWindow_WindowTitle" xml:space="preserve">
     <value>ShareX - Impostazioni applicazione</value>
@@ -752,7 +811,7 @@
     <value>Windows</value>
   </data>
   <data name="ApplicationSettingsWindow_WorkflowsOnlyShowEdited" xml:space="preserve">
-    <value>Mostra solo i flussi di lavoro personalizzati</value>
+    <value>Visualizza solo i flussi di lavoro personalizzati</value>
   </data>
   <data name="ApplicationSettingsWindow_ZeroDisablesTheLimit" xml:space="preserve">
     <value>0 disabilita il limite</value>
@@ -845,7 +904,7 @@
     <value>Caricamento dagli appunti</value>
   </data>
   <data name="ClipboardUploadWindow_DontShowAgain" xml:space="preserve">
-    <value>Non mostrare più questa finestra</value>
+    <value>Non visualizzare più questa finestra</value>
   </data>
   <data name="ClipboardUploadWindow_Empty" xml:space="preserve">
     <value>Gli appunti sono vuoti o contengono dati non supportati.</value>
@@ -926,7 +985,7 @@
     <value>Prima dell''esportazione deve essere selezionato almeno un tipo di destinazione.</value>
   </data>
   <data name="CustomUploaderSettingsWindow_DisplayOutputText" xml:space="preserve">
-    <value>Mostra testo di output</value>
+    <value>Visualizza testo di output</value>
   </data>
   <data name="CustomUploaderSettingsWindow_Duplicate" xml:space="preserve">
     <value>Duplica uploader selezionato</value>
@@ -1338,7 +1397,7 @@ Selezione una scorciatoia diversa o chiudi l'applicazione che crea conflitto e r
     <value>Continua</value>
   </data>
   <data name="LargeFileUploadWarningWindow_DontShowAgain" xml:space="preserve">
-    <value>Non mostrare più questo messaggio.</value>
+    <value>Non visualizzare più questo messaggio.</value>
   </data>
   <data name="LargeFileUploadWarningWindow_Message" xml:space="preserve">
     <value>Stai per caricare un file di grandi dimensioni.</value>
@@ -1545,13 +1604,13 @@ Selezione una scorciatoia diversa o chiudi l'applicazione che crea conflitto e r
     <value>Accorcia URL</value>
   </data>
   <data name="MainMenuBuilder_ShowCursor" xml:space="preserve">
-    <value>Mostra cursore</value>
+    <value>Visualizza cursore</value>
   </data>
   <data name="MainMenuBuilder_ShowDebugLog" xml:space="preserve">
-    <value>Mostra registro di debug...</value>
+    <value>Visualizza registro di debug...</value>
   </data>
   <data name="MainMenuBuilder_ShowShareX" xml:space="preserve">
-    <value>Mostra ShareX</value>
+    <value>Visualizza ShareX</value>
   </data>
   <data name="MainMenuBuilder_TaskSettings" xml:space="preserve">
     <value>Impostazioni Operazione</value>
@@ -1752,13 +1811,13 @@ Selezione una scorciatoia diversa o chiudi l'applicazione che crea conflitto e r
     <value>URL abbreviato</value>
   </data>
   <data name="MainWindow_ShowErrors" xml:space="preserve">
-    <value>Mostra errori...</value>
+    <value>Visualizza errori...</value>
   </data>
   <data name="MainWindow_ShowQRCode" xml:space="preserve">
-    <value>Mostra codice QR...</value>
+    <value>Visualizza codice QR...</value>
   </data>
   <data name="MainWindow_ShowResponse" xml:space="preserve">
-    <value>Mostra risposta...</value>
+    <value>Visualizza risposta...</value>
   </data>
   <data name="MainWindow_StopUpload" xml:space="preserve">
     <value>Interrompi caricamento</value>
@@ -1794,7 +1853,7 @@ Selezione una scorciatoia diversa o chiudi l'applicazione che crea conflitto e r
     <value>Annulla</value>
   </data>
   <data name="MultiUploadConfirmationWindow_DontShowAgain" xml:space="preserve">
-    <value>Non mostrare più questo messaggio.</value>
+    <value>Non visualizzare più questo messaggio.</value>
   </data>
   <data name="MultiUploadConfirmationWindow_Message" xml:space="preserve">
     <value>Caricare {0} file?</value>
@@ -2112,7 +2171,7 @@ Do you want to abort the active registrazione schermo?</value>
     <value>Scegli cartella degli screenshot</value>
   </data>
   <data name="TaskSettingsWindow_ChooseTheActionsShownAtTheBottomOfAfterCaptureNotifications" xml:space="preserve">
-    <value>Scegli le azioni mostrate in fondo alle notifiche dopo l’acquisizione.</value>
+    <value>Scegli le azioni visualizzate in fondo alle notifiche dopo l’acquisizione.</value>
   </data>
   <data name="TaskSettingsWindow_ChooseWatchFolder" xml:space="preserve">
     <value>Scegli cartella monitorata</value>
@@ -2559,46 +2618,46 @@ Do you want to abort the active registrazione schermo?</value>
     <value>ShareX - Impostazioni attività per {0}</value>
   </data>
   <data name="TaskSettingsWindow_ShowCenterCrosshair" xml:space="preserve">
-    <value>Mostra mirino centrale</value>
+    <value>Visualizza mirino centrale</value>
   </data>
   <data name="TaskSettingsWindow_ShowCursorInRecording" xml:space="preserve">
-    <value>Mostra cursore nella registrazione</value>
+    <value>Visualizza cursore nella registrazione</value>
   </data>
   <data name="TaskSettingsWindow_ShowCursorInScreenshots" xml:space="preserve">
-    <value>Mostra cursore negli screenshot</value>
+    <value>Visualizza cursore negli screenshot</value>
   </data>
   <data name="TaskSettingsWindow_ShowExitConfirmation" xml:space="preserve">
-    <value>Mostra conferma di uscita</value>
+    <value>Visualizza conferma di uscita</value>
   </data>
   <data name="TaskSettingsWindow_ShowImageEffectsWindowAfterCapture" xml:space="preserve">
-    <value>Mostra la finestra degli effetti immagine dopo l'acquisizione</value>
+    <value>Visualizza la finestra degli effetti immagine dopo l'acquisizione</value>
   </data>
   <data name="TaskSettingsWindow_ShowInsertImageDialog" xml:space="preserve">
-    <value>Mostra finestra di inserimento immagine</value>
+    <value>Visualizza finestra di inserimento immagine</value>
   </data>
   <data name="TaskSettingsWindow_ShowMagnifier" xml:space="preserve">
-    <value>Mostra lente</value>
+    <value>Visualizza lente</value>
   </data>
   <data name="TaskSettingsWindow_ShowMagnifierNearCursor" xml:space="preserve">
-    <value>Mostra lente vicino al cursore</value>
+    <value>Visualizza lente vicino al cursore</value>
   </data>
   <data name="TaskSettingsWindow_ShowNotifications" xml:space="preserve">
-    <value>Mostra notifiche</value>
+    <value>Visualizza notifiche</value>
   </data>
   <data name="TaskSettingsWindow_ShowPositionAndSizeInfo" xml:space="preserve">
-    <value>Mostra informazioni su posizione e dimensione</value>
+    <value>Visualizza informazioni su posizione e dimensione</value>
   </data>
   <data name="TaskSettingsWindow_ShowRecordingButtonLabels" xml:space="preserve">
-    <value>Mostra etichette dei pulsanti di registrazione</value>
+    <value>Visualizza etichette dei pulsanti di registrazione</value>
   </data>
   <data name="TaskSettingsWindow_ShowRecordingTimer" xml:space="preserve">
-    <value>Mostra timer di registrazione</value>
+    <value>Visualizza timer di registrazione</value>
   </data>
   <data name="TaskSettingsWindow_ShowScreenWideCrosshair" xml:space="preserve">
-    <value>Mostra mirino su tutto lo schermo</value>
+    <value>Visualizza mirino su tutto lo schermo</value>
   </data>
   <data name="TaskSettingsWindow_ShowToastNotificationAfterTaskIsCompleted" xml:space="preserve">
-    <value>Mostra una notifica dopo il completamento dell'attività</value>
+    <value>Visualizza una notifica dopo il completamento dell'attività</value>
   </data>
   <data name="TaskSettingsWindow_SizeLimitKB" xml:space="preserve">
     <value>Limite dimensione (kB):</value>
@@ -2852,5 +2911,7 @@ You can later disable it from "After acquisizione tasks" menu.</value>
   <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
     <value>Your system admin disabled the caricamento feature.</value>
   </data>
-  <data name="MainWindow_TrimVideo" xml:space="preserve"><value>Taglia video...</value></data>
+  <data name="MainWindow_TrimVideo" xml:space="preserve">
+    <value>Taglia video...</value>
+  </data>
 </root>
